@@ -12,7 +12,7 @@ export default class ShowSerie extends React.Component {
                     <div className="col-md-8">
                         <div className="card-body">
                             <h5 className="card-title">{this.props.series.name}</h5>
-                            <p className="card-text">{this.props.series.summary}</p>
+                            <p className="card-text">{this.props.series.summary.replace(/<p>|<b>/g," ").replace("</p>"," ").replace("</b>"," ")}</p>
                             <a href={this.props.series.officialSite}>{ this.props.series.officialSite}</a>
                         </div>
                     </div>
