@@ -1,58 +1,21 @@
-.App {
-  box-sizing: content-box;
-  width: 80%;
-  margin-left: 2em;
-  background: rgb(233, 153, 116);
-  font-size: 16px;
-  font-family: cursive;
-  
-  font-weight: 250 bold;
-  line-height: 1.8;
+
+
+.container{
+  width: 5000px;
+  margin-top: 200px;
+  padding-left: 250px;
 }
 
-.leaflet-container {
-  width: 60vw;
-  height: 60vh;
-  border:0;
-  
- }
- .contenedor-banner{
+.form-control{
+  width: 500px;
+}
+.container-search{
   display: flex;
-  justify-content: space-between;
-  flex-flow: wrap;
-  
-  
- }
-
- .container-title{
-  text-align: center;
+}
+.container-series{
+  margin-top: 30px;;
+}
+.container-title{
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  color: rgb(226, 173, 119);
-  font-family: Verdana ;
-  font-style:italic;
-  text-shadow: 7px 4px 5px rgba(109, 61, 34, 0.623);
-  font-weight:bolder;
-}
-.container-login{
-  box-sizing: content-box;
-  width: 80%;
-  margin-left: 2em;
-  background: lavender;
-  font-size: 16px;
-  font-family: cursive;
-  
-  font-weight: 250 bold;
-  line-height: 1.8;
-}
-
-.nav{
-  background-color: rgb(150, 117, 73);
-}
-.contenedor-productos{
-  display: flex;
-  justify-content: space-between;
-  flex-flow: wrap;
-}
-.container-form{
- padding: 200px;
 }

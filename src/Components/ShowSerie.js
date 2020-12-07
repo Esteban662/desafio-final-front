@@ -3,7 +3,7 @@ import React from 'react';
 export default class ShowSerie extends React.Component {
     render() {
         return (
-            <div>
+            <div className="container-series">
                 {this.props.series !== null ? <div className="card mb-3" style={{ maxWidth: '540px' }}>
                 <div className="row no-gutters">
                     <div className="col-md-4">
